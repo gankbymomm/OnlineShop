@@ -9,7 +9,7 @@ public class MailInfo {
 	private String subject;
 	private String body;
 	private String files;
-	
+	//nghia
 	
 	public MailInfo(String from, String to, String subject, String body) {
 		super();
@@ -21,6 +21,7 @@ public class MailInfo {
 	public MailInfo() {
 		super();
 	}
+	//nghia
 	public MailInfo(String from, String to, String cc, String bcc, String subject, String body, String files) {
 		super();
 		this.from = from;
